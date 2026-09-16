@@ -1,4 +1,5 @@
 :root {
+    /* Global Colors */
     --e-global-color-primary: #162130;
    --e-global-color-secondary: #54595f;
    --e-global-color-text: #162130;
@@ -18,6 +19,7 @@ html * {
 body {
     margin: 0 5rem;
     overflow-x: hidden;
+    color: #162130;
 }
 
 .page-header {
@@ -27,9 +29,17 @@ body {
 
   background: linear-gradient(
     to right,
-    #173c60 0%,
-    #173c60 50%,
+    #4e7a90 0%,
     #4e7a90 50%,
-    #4e7a90 100%
+    #9ebac0 50%,
+    #9ebac0 100%
     );
+}
+
+.seperator {
+  width: 100vw;
+  height: 1rem;
+  margin-left: calc(50% - 50vw);
+
+  background: #4e7a90;
 }
