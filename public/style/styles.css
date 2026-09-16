@@ -1,0 +1,35 @@
+:root {
+    --e-global-color-primary: #162130;
+   --e-global-color-secondary: #54595f;
+   --e-global-color-text: #162130;
+   --e-global-color-accent: #61ce70;
+   --e-global-color-8608a0a: #173c60;
+   --e-global-color-6c9660a: #4e7a90;
+   --e-global-color-2f92938: #9ebac0;
+   --e-global-color-9e616db: #535049;
+   --e-global-color-2ed9e93: #c3c3c3;
+   --e-global-color-471225e: #c97200;
+}
+
+html * {
+    font-family: "Maven Pro", Sans-serif; 
+}
+
+body {
+    margin: 0 5rem;
+    overflow-x: hidden;
+}
+
+.page-header {
+  width: 100vw;
+  height: 1rem;
+  margin-left: calc(50% - 50vw);
+
+  background: linear-gradient(
+    to right,
+    #173c60 0%,
+    #173c60 50%,
+    #4e7a90 50%,
+    #4e7a90 100%
+    );
+}
