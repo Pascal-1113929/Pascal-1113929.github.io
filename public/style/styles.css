@@ -62,7 +62,7 @@ p {
 }
 
 button {
-    background-color: var(--e-global-color-471225e); /* #c97200 Orange/Brown */
+    background-color: var(--e-global-color-471225e);
     color: #ffffff;
     padding: 1rem 2rem;
     
